@@ -1,3 +1,5 @@
 ## UVIP: Model-Free Approach to Evaluate Reinforcement Learning Algorithms
 
-This is the implementation of model-free Upper Value Iteration Procedure (`UVIP`) that allows us to estimate the suboptimality gap. The evaluation can be performed on the arbitrary policy. The `UVIP` was tested on discrete state space environments (**Frozen Lake**, **Chain** and **Garnet**) and continuous ones (**CartPole** and **Acrobot**). 
+This is the implementation of "UVIP: Model-Free Approach to Evaluate Reinforcement Learning Algorithms"(https://arxiv.org/pdf/2105.02135.pdf). 
+
+For the Upper Value Iteration Procedure (`UVIP`) for discrete state space environments (**Frozen Lake**, **Chain** and **Garnet**), please refer to code in the folder `DiscreteEnvs`. For `UVIP` for continuous ones (**CartPole** and **Acrobot**), please refer to code in the folder `ContinuousEnvs`.
